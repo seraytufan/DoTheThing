@@ -72,3 +72,8 @@ add_custom_command(TARGET DoTheThing POST_BUILD
     "${CMAKE_SOURCE_DIR}/assets"
     "$<TARGET_FILE_DIR:DoTheThing>/assets"
 )
+add_custom_command(TARGET DoTheThing POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    "${CMAKE_SOURCE_DIR}/dll"
+    "$<TARGET_FILE_DIR:DoTheThing>"
+)
