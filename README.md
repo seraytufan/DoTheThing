@@ -1,122 +1,63 @@
-\# DO THE THING
+# DO THE THING
 
+**Do The Thing** is a simple ADHD inspired simulation game where the player tries to complete a laundry task while managing focus, distractions, and overwhelm.
 
-
-\*\*Do The Thing\*\* is a simple ADHD inspired simulation game where the player tries to complete a laundry task while managing focus, distractions, and overwhelm.
-
-
-
-\## About
-
-
+## About
 
 This game gives a simple, interactive impression of how ADHD can make everyday tasks feel more difficult. It also aims to reflect common coping strategies in a light and accessible way.
 
 The player runs through a laundry room, jumps over puddles, and collects laundry before time runs out.
 
+During the game, distractions appear and interrupt the flow. When they become too overwhelming, the player can use a short **Grounding** exercise to calm down and continue. The game also includes **Hyperfocus**, a temporary state that makes the player faster and helps collect more laundry.
 
+## Goal
 
-During the game, distractions appear and interrupt the flow. When they become too overwhelming, the player can use a short \*\*Grounding\*\* exercise to calm down and continue. The game also includes \*\*Hyperfocus\*\*, a temporary state that makes the player faster and helps collect more laundry.
-
-
-
-\## Goal
-
-
-
-The goal is to collect enough laundry before the laundry room closes.  
+The goal is to collect enough laundry before the laundry room closes.
 
 The player must manage distractions, avoid obstacles, and use focus-related mechanics to keep going.
 
-
-
 The project aims to represent ADHD in a simple and accessible way, while also showing both challenges and coping strategies through gameplay.
 
+## How to Play
+
+* Hold **Right Arrow** to run.
+* Press **Up Arrow** to jump.
+* Collect laundry to gain points.
+* Avoid puddles.
+* Fill the **Hyperfocus** bar to move faster and collect more.
+* Use **Grounding** when distractions become overwhelming.
+
+## Features
+
+* 2D running and jumping gameplay
+* Laundry collection and scoring system
+* Puddle obstacles
+* Distraction popups
+* Hyperfocus power up
+* Grounding breathing break
+* Countdown timer
+* Lives system
+* Win and lose screens
+* Simple story/introduction screen
+
+## How to Play
+
+* Hold **Right Arrow** to run.
+* Press **Up Arrow** to jump.
+* Collect laundry to gain points.
+* Avoid puddles.
+* Fill the **Hyperfocus** bar by collecting laundry.
+* Use **Grounding** when too many distractions appear.
+
+## Technologies
+
+* C++
+* SFML
+* CMake
+
+## Project Structure
 
 
-\## How to Play
-
-
-
-\- Hold \*\*Right Arrow\*\* to run.
-
-\- Press \*\*Up Arrow\*\* to jump.
-
-\- Collect laundry to gain points.
-
-\- Avoid puddles.
-
-\- Fill the \*\*Hyperfocus\*\* bar to move faster and collect more.
-
-\- Use \*\*Grounding\*\* when distractions become overwhelming.
-
-
-
-\## Features
-
-
-
-\- 2D running and jumping gameplay
-
-\- Laundry collection and scoring system
-
-\- Puddle obstacles
-
-\- Distraction popups
-
-\- Hyperfocus power up
-
-\- Grounding breathing break
-
-\- Countdown timer
-
-\- Lives system
-
-\- Win and lose screens
-
-\- Simple story/introduction screen
-
-
-
-\## How to Play
-
-
-
-\- Hold \*\*Right Arrow\*\* to run.
-
-\- Press \*\*Up Arrow\*\* to jump.
-
-\- Collect laundry to gain points.
-
-\- Avoid puddles.
-
-\- Fill the \*\*Hyperfocus\*\* bar by collecting laundry.
-
-\- Use \*\*Grounding\*\* when too many distractions appear. 
-
-
-
-
-
-\## Technologies
-
-
-
-\- C++
-
-\- SFML
-
-\- CMake
-
-
-
-
-
-\## Project Structure
-
-
-
-```text
 
 src/
 
@@ -134,7 +75,7 @@ src/
 
 ├── ui/ # Buttons, progress bars, text helpers, timers, effects
 
-└── world/ # Background layers, object spawning, parallax scrolling 
+└── world/ # Background layers, object spawning, parallax scrolling
 
 
 
@@ -142,107 +83,44 @@ assets/         # Images, fonts, and sounds
 
 dll/            # Required runtime DLL files
 
-```
+## How to Build and Run
 
+This project uses **CMake** and **SFML 2.6.2**.
 
+### Requirements
 
-\## How to Build and Run
-
-
-
-This project uses \*\*CMake\*\* and \*\*SFML 2.6.2\*\*.
-
-
-
-\### Requirements
-
-
-
-\- Git
-
-\- CMake
-
-\- Visual Studio / MSVC compiler
-
-\- SFML 2.6.2
-
-
+* Git
+* CMake
+* Visual Studio / MSVC compiler
+* SFML 2.6.2
 
 The project expects SFML to be installed here:
 
 
 
-```text
-
 C:/Libraries/SFML-2.6.2/
 
-```
+### Download
 
 
-
-\### Download
-
-
-
-```powershell
 
 git clone https://git.cg.cs.tu-bs.de/PADI/padi26\_13.git
 
 cd padi26\_13
 
-```
+### Build
 
 
-
-\### Build
-
-
-
-```powershell
 
 cmake -S . -B build
 
 cmake --build build
 
-```
+During the build, CMake automatically copies the required assets folder and the DLL files from the dll folder next to the executable.
+
+### Run
 
 
-
-During the build, CMake automatically copies the required `assets` folder and the DLL files from the `dll` folder next to the executable.
-
-
-
-\### Run
-
-
-
-```powershell
 
 .\\build\\Debug\\DoTheThing.exe
-
-```
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-##### 
-
-
 
