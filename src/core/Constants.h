@@ -64,7 +64,7 @@ namespace Constants
     inline constexpr float kPlayerPickingHoldDuration = 0.15f;
 
     // StartMenu assets (from StartMenu.cpp) 
-    inline constexpr const char* kStartMenuBgIntroPath = "assets/Images/arka_2.png";
+    inline constexpr const char* kStartMenuBgIntroPath = "assets/Images/arka3.png";
     inline constexpr const char* kStartMenuBgMenuPath = "assets/Images/arka3.png";
     inline constexpr const char* kStartMenuPlayPath = "assets/Images/Play.png";
     inline constexpr const char* kStartMenuPlayPressedPath = "assets/Images/Playpressed.png";
@@ -74,6 +74,10 @@ namespace Constants
     inline constexpr const char* kStartMenuSettingsPressedPath = "assets/Images/Ellipsepressed.png";
     inline constexpr const char* kStartMenuBubblePathPrefix = "assets/Images/bubble_";
     inline constexpr const char* kStartMenuPopSoundPath = "assets/Sounds/bubble_pop.wav";
+    // Studio logo shown below the loading bar
+    inline constexpr const char* kStartMenuStudioLogoPath = "assets/Images/seray5.png";
+    inline constexpr float kStudioLogoTargetWidth = 180.f;
+    inline constexpr float kStudioLogoY = 600.f; 
 
     inline constexpr const char* kUiClickSoundPath = "assets/Sounds/click.wav";
     inline constexpr float kUiClickPitch = 1.6f;

@@ -62,6 +62,10 @@ private:
     std::shared_ptr<sf::Texture> bgMenuTexture;  // logo only
     sf::Sprite bgMenuSprite;
 
+    //  Studio logo (loading screen only) 
+    std::shared_ptr<sf::Texture> studioLogoTexture;
+    sf::Sprite studioLogoSprite;
+
     //  Buttons 
     std::shared_ptr<sf::Texture> playTexture, playPressedTexture;
     std::shared_ptr<sf::Texture> tutorialTexture, tutorialPressedTexture;

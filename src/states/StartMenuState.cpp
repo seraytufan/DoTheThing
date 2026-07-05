@@ -79,6 +79,20 @@ void StartMenuState::init()
     //  Loading bar: cornerRadius = height / 2 gives the fully rounded "pill" look 
     loadingBar.init(kBarX, kBarY, kBarWidth, kBarHeight, kBarHeight / 2.f, kTrackColor, kFillColor);
 
+    //  Studio logo 
+    studioLogoTexture = TextureManager::instance().acquire(kStartMenuStudioLogoPath);
+    studioLogoTexture->setSmooth(true);
+    studioLogoSprite.setTexture(*studioLogoTexture);
+
+    sf::Vector2u logoSize = studioLogoTexture->getSize();
+    if (logoSize.x > 0)
+    {
+        float scale = kStudioLogoTargetWidth / static_cast<float>(logoSize.x);
+        studioLogoSprite.setScale(scale, scale);
+        studioLogoSprite.setOrigin(logoSize.x / 2.f, logoSize.y / 2.f);
+    }
+    studioLogoSprite.setPosition(kBarX + kBarWidth / 2.f, kStudioLogoY);
+
     // Buttons
     playTexture = TextureManager::instance().acquire(kStartMenuPlayPath);
     playTexture->setSmooth(true);
@@ -251,6 +265,7 @@ void StartMenuState::render(sf::RenderWindow& window)
     for (auto& bubble : riseBubbles)
     {
         window.draw(bubble.sprite);
+        window.draw(studioLogoSprite); 
     }
 
     loadingBar.draw(window);
