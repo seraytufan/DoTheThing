@@ -16,8 +16,6 @@ The goal is to collect enough laundry before the laundry room closes.
 
 The player must manage distractions, avoid obstacles, and use focus-related mechanics to keep going.
 
-The project aims to represent ADHD in a simple and accessible way, while also showing both challenges and coping strategies through gameplay.
-
 ## How to Play
 
 * Hold **Right Arrow** to run.
