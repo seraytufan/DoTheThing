@@ -57,7 +57,7 @@ The player must manage distractions, avoid obstacles, and use focus-related mech
 ## Project Structure
 
 
-
+```bash
 src/
 
 │
@@ -81,6 +81,7 @@ src/
 assets/         # Images, fonts, and sounds
 
 dll/            # Required runtime DLL files
+```
 
 ## How to Build and Run
 
@@ -111,9 +112,8 @@ cd DoTheThing
 cmake -S . -B build
 cmake --build build
 
-During the build, CMake automatically copies the required assets folder and the DLL files from the dll folder next to the executable.
-
 ### Run
 .\\build\\Debug\\DoTheThing.exe
 ```
+During the build, CMake automatically copies the required assets folder and the DLL files from the dll folder next to the executable.
 
