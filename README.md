@@ -103,24 +103,17 @@ C:/Libraries/SFML-2.6.2/
 
 
 ```bash
+### Clone
 git clone git@github.com:seraytufan/DoTheThing.git
-
 cd DoTheThing
 
 ### Build
-
-
-
 cmake -S . -B build
-
 cmake --build build
 
 During the build, CMake automatically copies the required assets folder and the DLL files from the dll folder next to the executable.
 
 ### Run
-
-
-
 .\\build\\Debug\\DoTheThing.exe
 ```
 
