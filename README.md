@@ -1,6 +1,10 @@
 # DO THE THING
 
+
 **Do The Thing** is a simple ADHD inspired simulation game where the player tries to complete a laundry task while managing focus, distractions, and overwhelm.
+
+<img width="1272" height="717" alt="Screenshot 2026-07-26 203541" src="https://github.com/user-attachments/assets/2e489e50-07de-4a14-8db3-ae0924a7f33a" />
+
 
 ## About
 
