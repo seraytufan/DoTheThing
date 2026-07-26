@@ -22,7 +22,7 @@ The player must manage distractions, avoid obstacles, and use focus-related mech
 
 <img width="1276" height="715" alt="Screenshot 2026-07-26 203755" src="https://github.com/user-attachments/assets/139b998f-f3e7-466d-aaaa-092b30c4896a" />
 
-<img width="1277" height="716" alt="image" src="https://github.com/user-attachments/assets/693484c6-11d3-40ed-a9df-efc57cb5ff54" />
+<img width="1267" height="716" alt="Screenshot 2026-07-26 203816" src="https://github.com/user-attachments/assets/f622e8c2-e6cb-4c83-ae61-37172f8178ed" />
 
 
 ## How to Play
