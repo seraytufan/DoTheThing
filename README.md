@@ -20,6 +20,11 @@ The goal is to collect enough laundry before the laundry room closes.
 
 The player must manage distractions, avoid obstacles, and use focus-related mechanics to keep going.
 
+<img width="1283" height="715" alt="Screenshot 2026-07-26 203755" src="https://github.com/user-attachments/assets/7a245407-9276-4b42-97ce-0212238c5945" />
+
+<img width="1277" height="716" alt="Screenshot 2026-07-26 203816" src="https://github.com/user-attachments/assets/0ccf3d33-4b17-4147-953c-a5052f92a9c4" />
+
+
 ## How to Play
 
 * Hold **Right Arrow** to run.
