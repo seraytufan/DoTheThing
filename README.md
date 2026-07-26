@@ -38,14 +38,6 @@ The player must manage distractions, avoid obstacles, and use focus-related mech
 * Win and lose screens
 * Simple story/introduction screen
 
-## How to Play
-
-* Hold **Right Arrow** to run.
-* Press **Up Arrow** to jump.
-* Collect laundry to gain points.
-* Avoid puddles.
-* Fill the **Hyperfocus** bar by collecting laundry.
-* Use **Grounding** when too many distractions appear.
 
 ## Technologies
 
@@ -102,9 +94,9 @@ C:/Libraries/SFML-2.6.2/
 
 
 
-git clone https://git.cg.cs.tu-bs.de/PADI/padi26\_13.git
+git clone git@github.com:seraytufan/DoTheThing.git
 
-cd padi26\_13
+cd DoTheThing
 
 ### Build
 
