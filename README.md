@@ -61,25 +61,15 @@ The player must manage distractions, avoid obstacles, and use focus-related mech
 src/
 
 │
-
 ├── audio/ # SoundPool and sound-related helper classes
-
 ├── core/ # Game loop, constants, resource manager, game state interface
-
 ├── entities/ # Player class
-
 ├── mechanics/ # Hyperfocus, Distraction, Grounding
-
 ├── states/ # Start menu, story, playing, grounding, popup states
-
 ├── ui/ # Buttons, progress bars, text helpers, timers, effects
-
 └── world/ # Background layers, object spawning, parallax scrolling
 
-
-
 assets/         # Images, fonts, and sounds
-
 dll/            # Required runtime DLL files
 ```
 
